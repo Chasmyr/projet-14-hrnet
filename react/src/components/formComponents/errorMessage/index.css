@@ -1,0 +1,25 @@
+.error-message-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    background-color: #ffaaaa;
+    color: #aa0000;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .error-message-text {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .error-message-close {
+    background-color: #ffaaaa;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    color: #aa0000;
+    font-size: 20px;
+  }
+  

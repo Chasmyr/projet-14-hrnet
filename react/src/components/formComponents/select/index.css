@@ -1,0 +1,32 @@
+.select-input-container {
+  width: 100%;
+}
+
+.select-input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  appearance: none;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>')
+    no-repeat;
+  background-position: right 0.5rem center;
+  background-size: 24px;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #444;
+  transition: border-color 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.select-input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 1px rgba(0, 123, 255, 0.25);
+}
+
+.select-input option {
+  background-color: #fff;
+  color: #444;
+}
